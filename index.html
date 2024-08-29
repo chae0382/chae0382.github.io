@@ -51,55 +51,55 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <h2>Publications</h2>
-                </td>
-              </tr>
-            </tbody></table>
-            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+            
+    <tr onmouseout="multitalk_stop()" onmouseover="multitalk_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <h2>Publications</h2>
+        <h2></h2>
         <div class="one">
-          <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
-          <source src="images/nuvo.mp4" type="video/mp4">
+          <div class="two" id='multitalk_image'><video  width=100% muted autoplay loop>
+          <source src="images/multitalk.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/nuvo.jpg' width=100%>
+          <img src='images/multitalk.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function nuvo_start() {
-            document.getElementById('nuvo_image').style.opacity = "1";
+          function multitalk_start() {
+            document.getElementById('multitalk_image').style.opacity = "1";
           }
 
-          function nuvo_stop() {
-            document.getElementById('nuvo_image').style.opacity = "0";
+          function multitalk_stop() {
+            document.getElementById('multitalk_image').style.opacity = "0";
           }
-          nuvo_stop()
+          multitalk_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://pratulsrinivasan.github.io/nuvo/">
-          <span class="papertitle">Nuvo: Neural UV Mapping for Unruly 3D Representations</span>
+        <a href="https://multi-talk.github.io/">
+          <span class="papertitle">MultiTalk: Enhancing 3D Talking Head Generation
+            Across Languages with Multilingual Video Dataset</span>
         </a>
         <br>
-        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-        <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://bmild.github.io/">Ben Mildenhall</a>
+        <a href="https://sites.google.com/view/kimsungbin">Kim Sung-Bin*</a>,
+        <strong>Lee Chae-Yeon*</strong>,
+        <a>Gihun Son*</a>,
+        <a>Oh Hyun-Bin</a>,
+        <a>JangHoon Ju</a>,
+        <a>Suekyeong Nam</a>,
+        <a href="https://ami.postech.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>
         <br>
-        <em>ECCV</em>, 2024
+        <em>INTERSPEECH</em>, 2024
         <br>
-        <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
+        <a href="https://multi-talk.github.io/">project page</a>
         /
-        <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
+        <a href="https://arxiv.org/abs/2406.14272">arXiv</a>
         /
-        <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
+        <a href="https://github.com/postech-ami/MultiTalk">code</a>
+        /
+        <a href="https://github.com/postech-ami/MultiTalk/tree/main/MultiTalk_dataset">dataset</a>
         <p></p>
         <p>
-        Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
+            We generate a 3D talking head with enhanced performance on multilingual speech.
         </p>
       </td>
     </tr>   
