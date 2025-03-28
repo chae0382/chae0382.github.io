@@ -31,7 +31,7 @@
                 <p class="name" style="text-align: center;">
                   Lee Chae-Yeon
                 </p>
-                <p>Hi! I'm a MS student at <a href="https://ami.postech.ac.kr/">AMILab</a> in Artificial Intelligence at <a href="https://international.postech.ac.kr/user/index.do">POSTECH</a>, advised by <a href="https://ami.postech.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>.
+                <p>Hi! I'm a MS student at <a href="https://ami.kaist.ac.kr/">AMILab</a> in Artificial Intelligence at <a href="https://international.postech.ac.kr/user/index.do">POSTECH</a>, advised by <a href="https://ami.kaist.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>.
                 </p>
                 <p>
                   I am interested in <strong>3D computer vision</strong>, <strong>cross-modal generation</strong>, and <strong>multi-modal learning</strong>, but not limited to.
@@ -54,6 +54,9 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>News</h2>
                     <ul>
+                        <li class="cy_list"><b>06/2024</b> 1 paper has been accpted to CVPR 2025.</li>
+                    </ul>
+                    <ul>
                         <li class="cy_list"><b>06/2024</b> 1 paper has been accpted to INTERSPEECH 2024.</li>
                     </ul>
               </td>
@@ -67,6 +70,51 @@
           </tr>
         </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr onmouseout="perceptual_3d_talking_head_stop()" onmouseover="perceptual_3d_talking_head_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='perceptual_3d_talking_head_image'><video  width=100% muted autoplay loop>
+          <source src="videos/perceptual_3d_talking_head.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/perceptual_3d_talking_head.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function multitalk_start() {
+            document.getElementById('perceptual_3d_talking_head_image').style.opacity = "1";
+          }
+
+          function multitalk_stop() {
+            document.getElementById('perceptual_3d_talking_head_image').style.opacity = "0";
+          }
+          multitalk_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://perceptual-3d-talking-head.github.io/">
+          <span class="papertitle">Perceptually Accurate 3D Talking Head Generation: New Definitions, Speech-Mesh Representation, and Evaluation Metrics</span>
+        </a>
+        <br>
+        <strong><u>Lee Chae-Yeon*</u></strong>,
+        <a href="https://hyunbin70.github.io/">Oh Hyun-Bin</a>*,
+        <a href="https://winterbloooom.github.io/profile/">Han EunGi</a>,
+        <a href="https://sites.google.com/view/kimsungbin">Kim Sung-Bin</a>,
+        <a href="https://suekyeongnam.github.io/">Suekyeong Nam</a>,
+        <a href="https://ami.kaist.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>
+        <br>
+        <em>CVPR</em>, 2025
+        <br>
+        <a href="https://perceptual-3d-talking-head.github.io/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2503.20308">arXiv</a>
+        /
+        <a href="https://github.com/kaist-ami/Perceptual-3D-Talking-Head">code</a>
+        <p></p>
+        <p>
+          We define three essential criteria with evaluation metrics for perceptually accurate 3D talking heads and enhance existing models across these three aspects. 
+        </p>
+      </td>
+    </tr>   
     <tr onmouseout="multitalk_stop()" onmouseover="multitalk_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -98,8 +146,8 @@
         Gihun Son*,
         <a href="https://hyunbin70.github.io/">Oh Hyun-Bin</a>,
         JangHoon Ju,
-        Suekyeong Nam,
-        <a href="https://ami.postech.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>
+        <a href="https://suekyeongnam.github.io/">Suekyeong Nam</a>,
+        <a href="https://ami.kaist.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>
         <br>
         <em>INTERSPEECH</em>, 2024
         <br>
@@ -142,7 +190,7 @@
         <br>
         <strong><u>Lee Chae-Yeon*</u></strong>,
         <a href="https://sites.google.com/view/namhyeonwoo/">Nam Hyeon-Woo</a>*,
-        <a href="https://ami.postech.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>
+        <a href="https://ami.kaist.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>
         <br>
         <em>Under Review</em>
         <br>
