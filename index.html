@@ -54,10 +54,13 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>News</h2>
                     <ul>
-                        <li class="cy_list"><b>02/2025</b> 1 paper has been accpted to CVPR 2025 as a highlight.</li>
+                        <li class="cy_list"><b>07/2025</b> 1 paper has been accepted to BMVC 2025.</li>
                     </ul>
                     <ul>
-                        <li class="cy_list"><b>06/2024</b> 1 paper has been accpted to INTERSPEECH 2024.</li>
+                        <li class="cy_list"><b>02/2025</b> 1 paper has been accepted to CVPR 2025 as a highlight.</li>
+                    </ul>
+                    <ul>
+                        <li class="cy_list"><b>06/2024</b> 1 paper has been accepted to INTERSPEECH 2024.</li>
                     </ul>
               </td>
             </tr>
@@ -70,6 +73,44 @@
           </tr>
         </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+     <tr onmouseout="hand_uncertainty_stop()" onmouseover="hand_uncertainty_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='hand_uncertainty_image'><video  width=100% muted autoplay loop>
+          <source src="images/hand_uncertainty.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/hand_uncertainty.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function hand_uncertainty_start() {
+            document.getElementById('hand_uncertainty_image').style.opacity = "1";
+          }
+
+          function hand_uncertainty_stop() {
+            document.getElementById('hand_uncertainty_image').style.opacity = "0";
+          }
+          hand_uncertainty_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://hand_aleatoric_uncertainty.github.io/">
+          <span class="papertitle">Learning Correlation-aware Aleatoric Uncertainty for 3D Hand Pose Estimation</span>
+        </a>
+        <br>
+        <strong><u>Lee Chae-Yeon</u></strong>,
+        <a href="https://sites.google.com/view/namhyeonwoo/">Nam Hyeon-Woo</a>,
+        <a href="https://ami.kaist.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>
+        <br>
+        <em>BMVC</em>, 2025
+        <br>
+        <a>Coming soon</a>
+        <p></p>
+        <p>
+            We introduce aleatoric uncertainty modeling into the 3D hand pose estimation framework, achieving a better trade-off between capturing joint correlation and efficiency.
+        </p>
+      </td>
+    </tr>
     <tr onmouseout="perceptual_3d_talking_head_stop()" onmouseover="perceptual_3d_talking_head_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -164,42 +205,6 @@
         </p>
       </td>
     </tr>   
-    <tr onmouseout="coara_stop()" onmouseover="coara_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle;margin-left:auto;margin-right:auto;">
-        <div class="one">
-          <div class="two" id='coara_image'><video  width=100% muted autoplay loop>
-          <source src="images/coara.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/coara.jpg' width=100%>
-        </div>
-        <script type="text/javascript">
-          function coara_start() {
-            document.getElementById('coara_image').style.opacity = "1";
-          }
-
-          function coara_stop() {
-            document.getElementById('coara_image').style.opacity = "0";
-          }
-          coara_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-          <span class="papertitle">COARA: Efficient Correlation-Aware Uncertainty Modeling
-            in Hand Pose Estimation</span>
-        <br>
-        <strong><u>Lee Chae-Yeon*</u></strong>,
-        <a href="https://sites.google.com/view/namhyeonwoo/">Nam Hyeon-Woo</a>*,
-        <a href="https://ami.kaist.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>
-        <br>
-        <em>Under Review</em>
-        <br>
-        <p></p>
-        <p>
-          We estimate 3D hand pose uncertainty while maintaining robust performance.
-        </p>
-      </td>
-    </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
