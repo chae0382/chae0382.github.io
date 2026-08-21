@@ -73,6 +73,56 @@
           </tr>
         </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+     <tr onmouseout="omnirobothome_stop()" onmouseover="omnirobothome_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='omnirobothome_image'><video  width=100% muted autoplay loop>
+          <source src="images/omnirobothome.gif" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/omnirobothome.gif' width=100%>
+        </div>
+        <script type="text/javascript">
+          function omnirobothome_start() {
+            document.getElementById('omnirobothome_image').style.opacity = "1";
+          }
+
+          function omnirobothome_stop() {
+            document.getElementById('omnirobothome_image').style.opacity = "0";
+          }
+          omnirobothome_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://junc0ng.github.io/omnirobothome/">
+        <span class="papertitle">OmniRobotHome: A Multi-Camera Home Platform for Real-Time Human-Robot Interaction</span>
+        </a>
+        <br>
+        <a href="https://junc0ng.github.io/" target="_blank">Junyoung Lee</a>*,
+        <a href="https://sulwon-0516.github.io/" target="_blank">Inhee Lee</a>*,
+        <a href="https://jellyheadandrew.github.io/" target="_blank">Sookwan Han</a>*,
+        <a href="https://canoneod.github.io/" target="_blank">Jeonghwan Kim</a>*,
+        <a href="https://kyungwoncho.github.io/" target="_blank">Kyungwon Cho</a>,
+        <a href="https://willi19.github.io/" target="_blank">Mingi Choi</a>,
+        <strong><u>Lee Chae-Yeon</u></strong>,
+        <a href="https://wonjungwoo.github.io/" target="_blank">Wonjung Woo</a>,
+        <a href="https://gunhee1113.github.io/" target="_blank">Gunhee Kim</a>,
+        <a href="https://jlogkim.github.io/" target="_blank">Jisoo Kim</a>,
+        <a href="https://nagooon.github.io/" target="_blank">Jeonghyeon Na</a>,
+        <a href="https://jhugestar.github.io" target="_blank">Hanbyul Joo</a>
+        <br>
+        <em>arXiv</em>, 2026
+        <br>
+        <a href="https://junc0ng.github.io/omnirobothome/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2604.28197">arXiv</a>
+        <p></p>
+        <p>
+            We build a room-scale platform with 48 synchronized cameras and three manipulators delivering the real-time 3D human perception that home robots need for safety, assistance, and social interaction.
+        </p>
+      </td>
+    </tr>
+
      <tr onmouseout="hand_uncertainty_stop()" onmouseover="hand_uncertainty_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
